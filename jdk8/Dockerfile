@@ -10,7 +10,7 @@ RUN echo "deb http://sdkrepo.atlassian.com/debian/ stable contrib" >>/etc/apt/so
     && apt-get -yqq update \
     && apt-get -yqq install apt-transport-https \
     && apt-get -yqq update \
-    && apt-get -yqq install atlassian-plugin-sdk=6.2.2
+    && apt-get -yqq install atlassian-plugin-sdk=6.2.11
 
 # Copy Maven preference files to predefine the command line question about
 # subscribing to the mailing list to `NO`.
