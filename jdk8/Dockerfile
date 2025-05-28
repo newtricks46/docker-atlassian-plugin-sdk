@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM openjdk:8
 
 # Maintainers on this project are the following:
 MAINTAINER Martin Aksel Jensen <maj@translucent.dk>
